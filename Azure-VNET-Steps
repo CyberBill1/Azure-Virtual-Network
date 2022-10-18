@@ -1,0 +1,30 @@
+Step-By-Step Demo of Creating Azure Virtual Machine and Virtual Network 
+
+
+Step 1 − First, log into your Azure Management Portal, select 'New' at the bottom left corner.
+
+Step 2 − Next,  on the Network Services go to Virtual Network -> Quick create.
+
+Step 3 - Now, enter the name and leave all other fields empty and click 'next'.
+
+Step 4 − Finally, click on 'Create a Virtual Network,' and it is done.
+
+Note: Now, in the same VNet, create a Virtual machine
+
+Step 5 - First, select ‘create’ to build a new Virtual Machine with Windows Server 2012 R2 Datacenter.
+
+Step 6 - Once the fields are entered, select the existing resource group that you had created for the virtual network and select OK.
+
+Step 7 - Now, choose a desired size and configuration by selecting DS1_V2 Standard type 
+
+Note: By default, we would choose a Virtual Network.
+
+Step 8 - Now select the subnet as FrontEndSubnet and do not change the public IP address. Also, keep the Network Security Group as none.
+
+Step 9 - Create a new availability set and set a new name to it. 
+
+Next, set the fault domains as 2 and then disable the Guest OS Diagnosis section.
+
+Step 10 - Finally, click and select ‘create’.
+
+Congratulations, you have successfully created a Virtual Machine.
